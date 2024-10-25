@@ -1,0 +1,10 @@
+{
+  "name": "htmlcss",
+  "version": "1.0.0",
+  "description": "Conteúdo de um livro de HTML e CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true
+}
