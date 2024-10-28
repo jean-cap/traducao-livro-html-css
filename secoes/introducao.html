@@ -95,7 +95,7 @@
 <p>Terminamos com algumas informações úteis que ajudarão você a criar sites melhores.</p>
 
 <p>
-    Damos uma olhada em tags novas que serão introduzidas no HTML5 para ajudar a descrever
+    Damos uma olhada em tags novas que serão introduzidas no HTML5 para descrever
     a estrutura das suas páginas. HTML5 é a versão mais recente do HTML. Antes de aprender
     sobre esses elementos, você precisa ter uma boa noção de como o CSS é usado para
     controlar o design de páginas da web. Há um capítulo que fala sobre um processo de
@@ -167,6 +167,148 @@
     computadores de mesa, laptops, tablets e celulares. É importante lembrar que vários
     dispositivos têm tamanhos de tela diferentes e alguns têm conexões mais rápidas com
     a web do que outros.
+</p>
+
+<h3>Leitores de tela</h3>
+
+<p>
+    <strong>Leitores de tela</strong> são programas que leem o conteúdo da tela de um computador para um usuário.
+    Eles são comumente usados por pessoas com deficiência visual.
+</p>
+
+<p>
+    Da mesma forma que muitos países têm legislações que exigem que prédios públicos sejam acessíveis a pessoas com
+    deficiência, muitas leis também foram aprovadas exigindo que sites sejam acessíveis a pessoas com deficiência.
+</p>
+
+<p>
+    Ao longo deste livro, você verá várias referências a leitores de tela. Essas notas ajudaram a garantir que os sites
+    que você criar sejam acessíveis a pessoas que usam esse software.
+</p>
+
+<p>
+    É interessante notar que tecnologias semelhantes às empregadas pelos leitores de tela também estão sendo usadas
+    em outras áreas onde as pessoas não conseguem ler uma tela, como quando estão dirigindo ou correndo.
+</p>
+
+<h2>Como os sites são criados?</h2>
+
+<p>
+    Todos os sites usam HTML e CSS, mas sistemas de gerenciamento de conteúdo, software de blogs e plataformas de
+    comércio eletrônico geralmente adicionam mais algumas tecnologias à mistura.
+</p>
+
+<h3>O que você vê</h3>
+
+<p>
+    Quando você está olhando para um site, é provável que seu navegador esteja recebendo HTML e CSS do servidor web que
+    hospeda o site. O navegador web interpreta o código HTML e CSS para criar a página que você vê.
+</p>
+
+<p>
+    A maioria das páginas da web também inclui conteúdo extra, como imagens, áudio, vídeos ou animações e este livro lhe
+    ensinará como prepará-los para uso na web, em seguida, como inseri-los em suas páginas web.
+</p>
+
+<p>
+    Alguns sites também enviam JavaScript ou Flash para o seu navegador, e você verá como adicionar JavaScript e Flash
+    nas suas páginas web. Ambas as tecnologias são tópicos avançados sobre os quais você pode aprender mais após
+    dominar HTML e CSS, se você quiser.
+</p>
+
+<h3>Como isso é criado</h3>
+
+<p>
+    Pequenos sites são escritos geralmente usando apenas HTML e CSS.
+</p>
+
+<p>
+    Sites maiores, em particular aqueles que são regularmente atualizados e usam um sistema de gerenciamento de
+    conteúdo (CMS), ferramentas de blog ou software de e-commerce, geralmente usam tecnologias mais complexas no
+    servidor web, mas essas tecnologias são usadas para produzir HTML e CSS que são então enviados ao navegador.
+    Então, se seu site usa essas tecnologias, você poderá usar seu conhecimento de HTML e CSS para ter mais controle
+    sobre a aparência do seu site.
+</p>
+
+<p>
+    Sites maiores e mais complexos como esses podem usar um banco de dados para armazenar dados e linguagens de
+    programação como PHP, ASP.Net, Java ou Ruby no servidor web, mas você não precisa conhecer essas tecnologias para
+    melhorar o que o usuário vê. As habilidades que você aprenderá neste livro devem ser suficientes para ajudá-lo
+    nessa jornada.
+</p>
+
+<h3>HTML5 e CSS3</h3>
+
+<p>
+    Desde que a web foi criada, houve diversas versões de HTML e CSS, cada uma delas com a intenção de ser uma
+    melhoria em relação à versão anterior.
+</p>
+
+<p>
+    No momento em que este livro foi escrito, HTML5 e CSS3 ainda estavam sendo desenvolvidos. Embora não tivessem sido
+    finalizados, muitos navegadores já estavam suportando alguns recursos dessas linguagens e muitas pessoas estavam
+    usando o código mais recente em seus sites. Portanto, escolhi ensinar a você essas versões mais recentes.
+</p>
+
+<p>
+    Como HTML5 E CSS3 são construídas sobre versões anteriores dessas linguagens, aprender isso significa que você
+    também será capaz de entender as versões anteriores delas. Adicionei notas claras quando o código é novo e também
+    quando ele pode não funcionar em navegadores mais antigos.
+</p>
+
+<h2>Como a web funciona</h2>
+
+<p>
+    Quando você visita um site, o servidor web que hospeda este site pode estar em qualquer lugar do mundo. Para você
+    encontrar a localização do servidor web, seu navegador primeiro se conectará a um servidor Domain Name System
+    (DNS).
+</p>
+
+<p>
+    Nesta página você pode ver exemplos que demonstram como o servidor web que hospeda o site que você está visitando
+    pode estar em qualquer lugar do mundo. São os servidores DNS que dizem ao seu navegador como encontrar o site.
+</p>
+
+<ul>
+    <li>Um usuário em Barcelona visita sony.jp in Tokyo</li>
+    <li>Um usuário em Nova Iorque visita google.com em San Francisco</li>
+    <li>Um usuário em Estocolmo visita qantas.com.au em Sydney</li>
+    <li>Um usuário em Vancouver visita airindia.in em Bangalore</li>
+</ul>
+
+<p>
+    À direita, você pode ver o que acontece quando um usuário da web na Inglaterra quer visualizar o site da galeria de
+    arte do Louvre na França, que está localizado em www.louvre.fr. Primeiro, o navegador em Cambridge contata um
+    servidor DNS em Londres. O servidor DNS então informa ao navegador a localização do servidor web que hospeda o site
+    em Paris.
+</p>
+
+<p>
+    <span>1</span>
+    Quando você se conecta à web, você o faz por meio de um Provedor de Serviços de Internet (ISP). Você digita um nome
+    de domínio ou endereço da web no seu navegador para visitar o site, por exemplo: google.com, bbc.co.uk,
+    microsoft.com.
+</p>
+
+<p>
+    <span>2</span>
+    Seu computador contata uma rede de servidores chamados servidores Domain Name System (DNS). Eles agem como listas
+    telefônicas; eles informam ao seu computador o endereço IP associado ao nome de domínio solicitado. Cada dispositivo
+    na web tem um endereço IP exclusivo; é como o número de telefone daquele computador. Tradicionalmente, esses eram
+    números de até 12 dígitos separados por pontos finais, mas agora estão sendo atualizados para conjuntos de até 32
+    caracteres.
+</p>
+
+<p>
+    <span>3</span>
+    O número exclusivo que o servidor DNS retorna ao seu computador permite que seu navegador entre em contato com o
+    servidor web que hospeda o site que você solicitou. Um servidor web é um computador que está constantemente
+    conectado à web e é configurado especialmente para enviar páginas da web aos usuários.
+</p>
+
+<p>
+    <span>4</span>
+    O servidor web então envia a página que você solicitou de volta para o seu navegador.
 </p>
 </body>
 </html>
