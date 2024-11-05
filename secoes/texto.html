@@ -152,5 +152,189 @@
     Um elemento vazio geralmente tem somente uma tag. Antes do colchete angular de fechamento de um elemento vazio,
     geralmente haverá um espaço e um caractere de barra.
 </p>
+
+<h2>Marcação semântica</h2>
+
+<p>
+    Existem alguns elementos de texto que não tem a intenção de afetar a estrutura das páginas da web, mas eles
+    adicionam informações extras às páginas e são conhecidos como marcação semântica.
+</p>
+
+<p>
+    No restante do capítulo, você conhecerá mais alguns elementos que ajudarão você a adicionar texto a páginas da web.
+    Por exemplo, você conhecerá o elemento <code>&lt;em&gt;</code> que permite indicar onde a ênfase deve ser colocada
+    em palavras selecionadas e o elemento <code>&lt;blockquote&gt;</code> que indica que um bloco de texto é uma
+    citação.
+</p>
+
+<p>
+    Os navegadores exibem geralmente o conteúdo desses elementos de uma maneira diferente. Por exemplo, o conteúdo do
+    elemento <code>&lt;em&gt;</code> é mostrado em itálico, e um <code>&lt;blockquote&gt;</code> geralmente é
+    recuado. Mas você não deve usá-los para mudar a aparência do seu texto, o propósito deles é descrever o conteúdo
+    das suas páginas da web com mais precisão.
+</p>
+
+<p>
+    O motivo para usar esses elementos é que outros programas, como leitores de tela ou mecanismos de busca, podem usar
+    essas informações extras. Por exemplo, a voz de um leitor de tela pode dar ênfase às palavras dentro do elemento
+    <code>&lt;em&gt;</code>, ou um mecanismo de busca pode registrar que sua página apresenta uma citação se você usar
+    o elemento <code>&lt;blockquote&gt;</code>.
+</p>
+
+<h2>Forte e ênfase</h2>
+
+<h3>&lt;strong&gt;</h3>
+
+<p>
+    O uso do elemento <code>&lt;strong&gt;</code> indica que seu conteúdo tem forte importância. Por exemplo, as
+    palavras contidas neste elemento podem ser ditas com forte ênfase.
+</p>
+
+<p>
+    Por padrão, os navegadores mostrarão o conteúdo de um elemento <code>&lt;strong&gt;</code> em negrito.
+</p>
+
+<h3>&lt;em&gt;</h3>
+
+<p>
+    O elemento <code>&lt;em&gt;</code> indica ênfase que altera sutilmente o significado de uma frase.
+</p>
+
+<p>
+    Por padrão, os navegadores mostrarão o conteúdo de um elemento <code>&lt;em&gt;</code> em itálico.
+</p>
+
+<h2>Citações</h2>
+
+<p>
+    Existem dois elementos comumente usados para marcar citações:
+</p>
+
+<h3>&lt;blockquote&gt;</h3>
+
+<p>
+    O elemento <code>&lt;blockquote&gt;</code> é usado para citações mais longas que ocupam um parágrafo inteiro.
+    Note como o elemento <code>&lt;p&gt;</code> ainda é usado dentro do elemento &lt;blockquote&gt;.
+</p>
+
+<p>
+    Os navegadores tendem a recuar o conteúdo do elemento <code>&lt;blockquote&gt;</code>, no entanto, você não deve
+    usar este elemento apenas para recuar um pedaço de texto. Em vez disso, você deve obter esse efeito usando CSS
+</p>
+
+<h3>&lt;q&gt;</h3>
+
+<p>
+    O elemento <code>&lt;q&gt;</code> é usado para citações mais curtas que ficam dentro de um parágrafo. Os
+    navegadores devem colocar aspas em volta do elemento <code>&lt;q&gt;</code>, mas o Internet Explorer não faz isso,
+    portanto, muitas pessoas evitam usar o elemento <code>&lt;q&gt;</code>.
+</p>
+
+<p>
+    Ambos os elementos podem usar o atributo <code>cite</code> para indicar de onde vem a citação. Seu valor deve ser
+    uma <code>URL</code> que terá mais informações sobre a fonte da citação.
+</p>
+
+<h2>Abreviações e siglas</h2>
+
+<h3>&lt;abbr&gt;</h3>
+
+<p>
+    Se você usar uma abreviação ou acrônimo, então o elemento <code>&lt;abbr&gt;</code> pode ser usado. Um atributo
+    <code>title</code> na tag de abertura é usado para especificar o termo completo.
+</p>
+
+<p>
+    No HTML 4, havia um elemento <code>acronym</code> separado para siglas. Para soletrar a forma completa da sigla,
+    o atributo <code>title</code> era usado. O HTML 5 utiliza apenas o elemento <code>&lt;abbr&gt;</code> para
+    abreviações e siglas.
+</p>
+
+<h2>Citações e definições</h2>
+
+<h3>&lt;cite&gt;</h3>
+
+<p>
+    Ao referenciar um trabalho, como um livro, filme ou artigo de pesquisa, o elemento <code>&lt;cite&gt;</code> pode
+    ser usado para indicar de onde veio a citação.
+</p>
+
+<p>
+    No HTML 5, <code>&lt;cite&gt;</code> não deveria ser usado para nome de uma pessoa - mas isso era permitido no HTML
+    4,
+    então a maioria das pessoas continuará usando.
+</p>
+
+<p>
+    Os navegadores renderizarão o conteúdo de um elemento &lt;cite&gt; em itálico.
+</p>
+
+<h3>&lt;dfn&gt;</h3>
+
+<p>
+    A primeira vez que você explica uma terminologia nova (talvez um conceito acadêmico ou algum jargão) em um
+    documento, ela é conhecida como a instância definidora dela.
+</p>
+
+<p>
+    O elemento <code>&lt;dfn&gt;</code> é usado para indicar a instância definidora de um novo termo.
+</p>
+
+<p>
+    Alguns navegadores mostram o conteúdo do elemento <code>&lt;dfn&gt;</code> em itálico.
+</p>
+
+<h2>Detalhes do autor</h2>
+
+<h3>&lt;address&gt;</h3>
+
+<p>
+    O elemento <code>&lt;address&gt;</code> tem um uso bastante específico: conter detalhes de contato do autor da
+    página.
+</p>
+
+<p>
+    Pode conter um endereço físico, mas não necessariamente. Por exemplo, também pode conter um número de telefone
+    ou endereço de e-mail.
+</p>
+
+<p>
+    Os navegadores geralmente exibem o conteúdo do elemento <code>&lt;address&gt;</code> em itálico.
+</p>
+
+<p>
+    Você também pode estar interessado em algo chamado microformato
+    <a href="https://microformats.org/wiki/h-card" target="_blank">hCard</a> para adicionar informações de endereço
+    físico à sua marcação.
+</p>
+
+<h2>Mudanças no conteúdo</h2>
+
+<h3>&lt;ins&gt; e &lt;del&gt;</h3>
+
+<p>
+    O elemento <code>&lt;ins&gt;</code> pode ser usado para mostrar o conteúdo inserido em um documento, enquanto o
+    elemento <code>&lt;del&gt;</code> pode mostrar o conteúdo removido dele.
+</p>
+
+<p>
+    O conteúdo de um elemento <code>&lt;ins&gt;</code> geralmente é sublinhado, enquanto o conteúdo do elemento
+    <code>&lt;del&gt;</code> geralmente é riscado.
+</p>
+
+<h3>&lt;s&gt;</h3>
+
+<p>
+    O elemento <code>&lt;s&gt;</code> indica algo que não é mais preciso ou relevante (mas que não deve ser excluído).
+</p>
+
+<p>
+    Visualmente, o conteúdo de um elemento <code>&lt;s&gt;</code> geralmente será exibido com uma linha no centro.
+</p>
+
+<p>
+    Versões mais antigas do HTML tinham um elemento <code>&lt;u&gt;</code> para conteúdo sublinhado, mas isso está
+    sendo descontinuado.
+</p>
 </body>
 </html>
