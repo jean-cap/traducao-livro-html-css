@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML & CSS | Texto</title>
+</head>
+<body>
+<h2>Texto</h2>
+
+<p>
+    Ao criar uma página da web, você adiciona tags (conhecidas como marcação) ao conteúdo da página. Essas tags
+    fornecem significado extra e permitem que os navegadores mostrem ao usuário a estrutura apropriada para a página.
+</p>
+
+<p>
+    Neste capítulo, focamos em como adicionar marcação ao texto que aparece nas páginas. Você aprenderá sobre:
+</p>
+
+<ul>
+    <li>Marcação estrutural: os elementos que você pode usar para descrever títulos e parágrafos.</li>
+    <li>Marcação semântica: que fornece informações extras; como onde a ênfase é colocada em uma frase, que algo que
+        você escreveu é uma citação (e quem o disse), o significado de siglas e assim por diante.
+    </li>
+</ul>
+
+<h2>Títulos</h2>
+
+<h3>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt; e &lt;h6&gt;</h3>
+
+<p>
+    O HTML tem seis níveis de títulos:
+</p>
+
+<p>
+    <code>&lt;h1&gt;</code> é usado para títulos principais
+</p>
+
+<p>
+    <code>&lt;h2&gt;</code> é usado para subtítulos
+</p>
+
+<p>
+    Se houver mais seções sob os subtítulos, o elemento <code>&lt;h3&gt;</code> será usado, e assim por diante...
+</p>
+
+<p>
+    Os navegadores exibem o conteúdo dos títulos em tamanhos diferentes. O conteúdo de um elemento
+    <code>&lt;h1&gt;</code> é o maior, e o conteúdo de um elemento <code>&lt;h6&gt;</code> é o menor. O tamanho exato em
+    que cada navegador mostra os títulos podem variar um pouco. Os usuários também podem ajustar o tamanho do texto em
+    seus navegadores. Você verá como controlar o tamanho do texto, sua cor e as fontes usadas quando chegarmos ao CSS.
+</p>
+
+<h2>Parágrafos</h2>
+
+<h3>p</h3>
+
+<p>
+    Para criar um parágrafo, coloque as palavras que compõem o parágrafo entre uma tag de abertura
+    <code>&lt;p&gt;</code> e uma tag de fechamento <code>&lt;/p&gt;</code>.
+</p>
+
+<p>
+    Por padrão, um navegador mostrará cada parágrafo em uma nova linha com algum espaço entre ele e qualquer
+    parágrafo subsequente.
+</p>
+
+<h2>Negrito e itálico</h2>
+
+<h3>&lt;b&gt;</h3>
+
+<p>
+    Ao colocar palavras entre as tags <code>&lt;b&gt;</code> e <code>&lt;/b&gt;</code>, podemos fazer com que os
+    caracteres apareçam em <b>negrito</b>.
+</p>
+
+<p>
+    O elemento <code>&lt;b&gt;</code> também representa uma seção de texto que seria apresentada de uma maneira
+    visualmente diferente (por exemplo, palavras-chave de um parágrafo), embora o uso do elemento <code>&lt;b&gt;</code>
+    não implique nenhum significado adicional.
+</p>
+
+<h3>&lt;i&gt;</h3>
+
+<p>
+    Ao colocar palavras entre as tags <code>&lt;i&gt;</code> e <code>&lt;/i&gt;</code>, podemos fazer com que os
+    caracteres apareçam em itálico.
+</p>
+
+<p>
+    O elemento <code>&lt;i&gt;</code> também representa uma seção de texto que seria dita de uma maneira diferente do
+    conteúdo ao redor - como termos técnicos, nomes de navios, palavras estrangeiras, pensamentos ou outros termos que
+    normalmente seriam colocados em itálico.
+</p>
+
+<h2>Sobrescrito e subscrito</h2>
+
+<h3>&lt;sup&gt;</h3>
+
+<p>
+    O elemento <code>&lt;sup&gt;</code> é usado para conter caracteres que devem ser sobrescritos, como sufixos de datas
+    ou conceitos matemáticos, como elevar um número a uma potência como 2<sup>2</sup>.
+</p>
+
+<h3>&lt;sub&gt;</h3>
+
+<p>
+    O elemento <code>&lt;sub&gt;</code> é usado para conter caracteres que devem ser subscritos. É comumente usado com
+    notas de rodapé ou fórmulas químicas como H<sub>2</sub>O.
+</p>
+
+<h2>Espaço em branco</h2>
+
+<p>
+    Para tornar o código mais fácil de ler, os autores de páginas da web geralmente adicionam espaços extras ou
+    iniciam alguns elementos em novas linhas.
+</p>
+
+<p>
+    Quando o navegador encontra um ou mais espaços um ao lado do outro, ele exibe apenas um espaço. Da mesma forma,
+    se ele encontrar uma quebra de linha, ele a trata como um único espaço também. Isso é conhecido como colápso de
+    espaço em branco.
+</p>
+
+<p>
+    Você verá frequentemente que os autores de páginas da web aproveitam o colápso de espaços em brando para recuar
+    seu código, a fim de torná-lo mais fácil de ler.
+</p>
+
+<h2>Quebras de linhas e </h2>
+
+<h3>&lt;b&gt;</h3>
+
+<p>
+    Como você já viu, o navegador mostrará automaticamente cada novo parágrafo ou título em uma nova linha. Mas se
+    você quiser adicionar uma quebra de linha no meio de um parágrafo, você pode usar a tag de quebra de linha
+    <code>&lt;b&gt;</code>.
+</p>
+
+<h3>&lt;hr&gt;</h3>
+
+<p>
+    Para criar uma pausa entre temas, como uma mudança de tópico em um livro ou uma nova cena em uma peça, você pode
+    adicionar uma régua horizontal entre as seções usando a tag <code>&lt;hr&gt;</code>.
+</p>
+
+<p>
+    Existem alguns elementos que não têm nenhuma palavra entre a tag de abertura e fechamento. Eles são conhecidos
+    como elementos vazios e são escritos de forma diferente.
+</p>
+
+<p>
+    Um elemento vazio geralmente tem somente uma tag. Antes do colchete angular de fechamento de um elemento vazio,
+    geralmente haverá um espaço e um caractere de barra.
+</p>
+</body>
+</html>
